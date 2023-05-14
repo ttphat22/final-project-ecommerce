@@ -38,12 +38,12 @@
                         <table class="table">
                             <tbody>
                                 <tr>
-                                    <th style="width: 10px">STT</th>
+                                    <th style="width: 10px">No.</th>
                                     <th style="width: 10px">ID</th>
                                     <th>Name</th>
                                     <th>Category</th>
                                     <th>Avatar</th>
-                                    <th style="width: 120px;">Số lượng</th>
+                                    <th style="width: 120px;">Quantity</th>
                                     <th>Price</th>
                                     <th>Hot</th>
                                     <th>Status</th>

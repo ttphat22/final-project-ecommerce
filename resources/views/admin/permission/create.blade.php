@@ -57,7 +57,7 @@
                         <!-- /.box-body -->
                         <div class="box-footer text-center">
                             <a href="{{ route('admin.permission.list') }}" class="btn btn-default"><i class="fa fa-arrow-left"></i> Cancel</a>
-                            <button type="submit" class="btn btn-success"><i class="fa fa-save"></i> Thêm mới</button>
+                            <button type="submit" class="btn btn-success"><i class="fa fa-save"></i> Add new</button>
                         </div>
                         <!-- /.box-footer -->
                     </form>

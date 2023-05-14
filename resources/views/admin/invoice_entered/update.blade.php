@@ -2,7 +2,7 @@
 @section('content')
     <!-- Content Header (Page header) -->
     <section class="content-header">
-        <h1>Cập nhật đơn nhập hàng</h1>
+        <h1>Updating purchase order</h1>
         <ol class="breadcrumb">
             <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
             <li><a href="{{  route('admin.invoice_entered.index') }}"> Admin</a></li>

@@ -2,7 +2,7 @@
 @section('content')
 	<!-- Content Header (Page header) -->
 	<section class="content-header">
-		<h1>Thêm mới Slide</h1>
+		<h1>Add new Slide</h1>
 		<ol class="breadcrumb">
 			<li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
 			<li><a href="{{  route('admin.slide.index') }}"> Slide</a></li>
@@ -59,8 +59,8 @@
 						<div class="col-sm-12">
 							<div class="box-footer text-center">
 								<a href="{{ route('admin.slide.index') }}" class="btn btn-danger">
-									Quay lại <i class="fa fa-undo"></i></a>
-								<button type="submit" class="btn btn-success">Lưu dữ liệu <i class="fa fa-save"></i></button>
+									Back <i class="fa fa-undo"></i></a>
+								<button type="submit" class="btn btn-success">Save data <i class="fa fa-save"></i></button>
 							</div>
 						</div>
 					</form>

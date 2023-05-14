@@ -23,7 +23,7 @@
                         <button type="submit" name="export" value="true" class="btn btn-info">
                             <i class="fa fa-save"></i> Export
                         </button>
-                        <a href="{{ route('admin.system_pay_in.create') }}" class="btn btn-primary">Thêm mới <i class="fa fa-plus"></i></a>
+                        <a href="{{ route('admin.system_pay_in.create') }}" class="btn btn-primary">Add new <i class="fa fa-plus"></i></a>
                     </form>
                 </div>
                 <div class="box-body">

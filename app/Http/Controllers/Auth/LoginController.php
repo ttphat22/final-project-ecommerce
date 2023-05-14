@@ -56,7 +56,7 @@ class LoginController extends Controller
 				'type'    => 'success',
 				'message' => 'Login Success'
 			]);
-
+ 
             if(Auth::user()->level == 2){
                 return redirect()->route('admin.statistical');
             }
