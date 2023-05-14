@@ -1,0 +1,21 @@
+/var/www/basethesis/public
+/var/www/basethesis/public/
+
++ Đăng nhập admin
+    http://doan.phupt.net/admin-auth/login
+
+
++ Đăng nhập admin : http://thoitrang.phupt.net/admin-auth/login
+    + ID : doantotnghiep@gmail.com
+    + Pas: 123456789
+
+0981135997
+xuan0301
+
+   echo $dt->diffForHumans($now); //12 phút trước
+    echo $dt2->diffForHumans($now); //1 giờ trước
+8.23ms
+
+http://xuanthuyshop.com/home-page
+
+php -d memory_limit=-1 /usr/local/bin/composer

@@ -1,0 +1,49 @@
+.attributes {
+    display: flex;
+    .title {
+        color: rgb(142, 142, 142);
+        font-size: 13px !important;
+        line-height: 20px;
+        font-weight: 400;
+        margin: 0;
+        padding-right: 20px;
+        width: 80px;
+    }
+    &-list {
+        width: calc(100% - 80px);
+        ul {
+            li {
+                display: inline-block;
+                a {
+                    cursor: pointer;
+                    color: rgb(36, 36, 36);
+                    font-size: 13px !important;
+                    position: relative;
+                    outline: 0;
+                    background-color: white;
+                    border: 1px solid rgb(199, 199, 199);
+                    margin: 4px 6px 0 0;
+                    padding: 4px 6px;
+                    border-radius: 6px;
+                    min-width: auto;
+                    display: block;
+                    &.active {
+                        border: 1px solid rgb(13, 92, 182);
+                        background-color: transparent;
+                        position: relative;
+                        &:before{
+                            position: absolute;
+                            right: 0;
+                            top: 0;
+                            content: '';
+                            background: url(/images/check.svg);
+                            background-size: 100%;
+                            width: 15px;
+                            height: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
