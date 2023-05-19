@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Trang quảng trị hệ thống</title>
+        <title>Admin Page</title>
         <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
         <!-- Tell the browser to be responsive to screen width -->
         <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
@@ -133,8 +133,8 @@
                                 @endif
                             </li>
                         @endforeach
-{{--                        <li><a href="{{ route('test.embed.index') }}">Quản lý video</a></li>--}}
-{{--                        <li><a href="{{ route('test.embed.index') }}">Quản lý link embed</a></li>--}}
+{{--                        <li><a href="{{ route('test.embed.index') }}">Management video</a></li>--}}
+{{--                        <li><a href="{{ route('test.embed.index') }}">Management link embed</a></li>--}}
                     </ul>
                 </section>
                 <!-- /.sidebar -->

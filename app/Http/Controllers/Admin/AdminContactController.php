@@ -22,7 +22,7 @@ class AdminContactController extends Controller
         Contact::find($id)->delete();
         \Session::flash('toastr', [
             'type'    => 'success',
-            'message' => 'Xoá dữ liệu thành công'
+            'message' => 'Delete data successfully'
         ]);
         return redirect()->back();
     }

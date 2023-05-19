@@ -25,7 +25,7 @@
 @stop
 @section('content')
     <section>
-        <div class="title">Quản lý đơn hàng</div>
+        <div class="title">Managemnet Cart</div>
         <form class="form-inline">
             <div class="form-group " style="margin-right: 10px;">
                 <input type="text" class="form-control" value="{{ Request::get('id') }}" name="id" placeholder="ID">

@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Trang quảng trị hệ thống</title>
+        <title>Admin Page</title>
         <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
         <!-- Tell the browser to be responsive to screen width -->
         <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
@@ -37,7 +37,7 @@
                 <!-- Logo -->
                 <a href="/" class="logo">
                     <!-- mini logo for sidebar mini 50x50 pixels -->
-                    <span class="logo-mini"><b>N</b>.Ân</span>
+                    <span class="logo-mini"><b>N</b>Clothing Luxyry ecomer</span>
                     <!-- logo for regular state and mobile devices -->
                     <span class="logo-lg"><b>{{ get_data_user('admins','name') }}</b></span>
                 </a>
@@ -63,7 +63,7 @@
                                     <i class="fa fa-flag-o"></i>
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li class="header">Chọn ngôn ngữ</li>
+                                    <li class="header">Choose language</li>
                                     <li>
                                         <!-- inner menu: contains the actual data -->
                                         <ul class="menu">
@@ -93,7 +93,7 @@
                                         </div>
 
                                         <div class="pull-right">
-                                            <a href="{{ route('get.logout.admin') }}" class="btn btn-default btn-flat">Đăng xuất</a>
+                                            <a href="{{ route('get.logout.admin') }}" class="btn btn-default btn-flat">Log Out</a>
                                         </div>
                                     </li>
                                 </ul>

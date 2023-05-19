@@ -43,7 +43,7 @@ class ProcessRechargeOnlineController extends Controller
 					if ($results->shopping) {
 						\Session::flash('toastr', [
 							'type'    => 'success',
-							'message' => 'Nạp tiền thành công, Mời bạn xác nhận thanh toán'
+							'message' => 'Recharge successful, please confirm payment'
 						]);
 						return  redirect()->to($results->shopping);
 					}

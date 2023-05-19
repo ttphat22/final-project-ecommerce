@@ -14,7 +14,7 @@
             cái gì củng ok....mà mải hơi nóng là bị đứng máy hoài lun.có cách nào khắc phục không.
         </div>
         <div class="item_footer">
-            <span class="item_time"><i class="la la-clock-o"></i> đánh giá 1 ngày trước</span>
+            <span class="item_time"><i class="la la-clock-o"></i> review 1 day ago</span>
         </div>
     </div>
 @endfor

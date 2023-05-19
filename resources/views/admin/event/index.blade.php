@@ -2,7 +2,7 @@
 @section('content')
     <!-- Content Header (Page header) -->
     <section class="content-header">
-        <h1>Quản lý Event</h1>
+        <h1>Management Event</h1>
         <ol class="breadcrumb">
             <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
             <li><a href="{{  route('admin.event.index') }}"> Event</a></li>
@@ -15,7 +15,7 @@
         <div class="box">
             <div class="box-header with-border">
                 <div class="box-header">
-                    <h3 class="box-title"><a href="{{ route('admin.event.create') }}" class="btn btn-primary">Thêm mới <i class="fa fa-plus"></i></a></h3>
+                    <h3 class="box-title"><a href="{{ route('admin.event.create') }}" class="btn btn-primary">Add new <i class="fa fa-plus"></i></a></h3>
                </div>
                 <div class="box-body">
                    <div class="col-md-12">

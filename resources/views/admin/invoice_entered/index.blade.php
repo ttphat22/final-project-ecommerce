@@ -2,7 +2,7 @@
 @section('content')
     <!-- Content Header (Page header) -->
     <section class="content-header">
-        <h1>Quản lý nhập hàng</h1>
+        <h1>Import management</h1>
         <ol class="breadcrumb">
             <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
             <li><a href="{{  route('admin.invoice_entered.index') }}"> NCC</a></li>

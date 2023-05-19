@@ -6,7 +6,7 @@
 <div class="filter-sidebar">
     @if (config('layouts.pages.search.price.type') == 2)
         <div class="item">
-            <div class="item__title">Giá</div>
+            <div class="item__title">Price</div>
             <div class="item__content prices">
                 @include('frontend.pages.product.include._inc_filter_price')
             </div>
@@ -33,7 +33,7 @@
         @endforeach
     @endif
     <div class="item">
-        <div class="item__title">Hãng</div>
+        <div class="item__title">Manufactuner</div>
         <div class="item__content ratings">
             <ul>
                @foreach($manufacturer ?? [] as $item)
@@ -47,7 +47,7 @@
         </div>
     </div>
     <div class="item">
-        <div class="item__title">Dánh giá</div>
+        <div class="item__title">Evaluate</div>
         <div class="item__content ratings">
             <ul>
                 @for ($i = 5 ; $i >0 ; $i--)

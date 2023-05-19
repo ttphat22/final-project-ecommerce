@@ -20,7 +20,7 @@
                     <i class="la la-star {{ $i <= $iactive ? 'active' : ''  }}"></i>
                 @endfor
             </span>
-            <span class="text">{{ $product->pro_review_total }} đánh giá</span>
+            <span class="text">{{ $product->pro_review_total }} Evaluate</span>
         </p>
         @if ($product->pro_sale)
             <p>

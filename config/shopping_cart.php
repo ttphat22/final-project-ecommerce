@@ -5,10 +5,10 @@ use App\Services\ShoppingCartService\PayTransferService;
 
 return [
     'progress'  => [
-        '-1' => 'Đặt hàng thành công',
-        '1'  => 'Đã tiếp nhận',
-        '2'  => 'Bàn giao vận chuyển',
-        '3'  => 'Thành công',
+        '-1' => 'Order Success',
+        '1'  => 'Received',
+        '2'  => 'Shipping handover',
+        '3'  => 'Success',
     ],
     'drive_pay' => [
         'transfer' => [

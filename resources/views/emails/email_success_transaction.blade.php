@@ -19,7 +19,7 @@
                     </div>
                     <div style="width: 80%;float: right;">
                         <h4 style="margin:10px 0">{{ $item->name }}</h4>
-                        <p style="margin: 4px 0;font-size: 14px;">Giá <span>{{  number_format($item->price,0,',','.') }} đ</span></p>
+                        <p style="margin: 4px 0;font-size: 14px;">Price <span>{{  number_format($item->price,0,',','.') }} đ</span></p>
                         @if ($item->options->price_old)
                             <p style="margin: 4px 0;font-size: 14px;">
                                 <span style="text-decoration: line-through;">{{  number_format(number_price($item->options->price_old),0,',','.') }} đ</span>

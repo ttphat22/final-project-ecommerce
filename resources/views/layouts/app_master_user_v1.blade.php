@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Quản lý người dùng</title>
+        <title>Management User</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="A project management Bootstrap theme by Medium Rare">
         <link href="assets/img/favicon.ico" rel="icon" type="image/x-icon">

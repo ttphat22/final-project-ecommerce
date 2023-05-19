@@ -128,7 +128,7 @@
                         </div>
                         @if (isset($event1))
                             <div class="ads">
-                                <a href="#" title="Giam giá" target="_blank"><img alt="Hoan tien" style="width: 100%"
+                                <a href="#" title="Sales" target="_blank"><img alt="Hoan tien" style="width: 100%"
                                                                                   src="{{ pare_url_file($event1->e_banner) }}"></a>
                             </div>
                         @endif

@@ -23,7 +23,7 @@ class ShoppingCartController extends FrontendController
             \Cart::destroy();
             \Session::flash('toastr', [
                 'type'    => 'success',
-                'message' => 'Thanh toán thành công'
+                'message' => 'Payment success'
             ]);
             return redirect()->route('get.home');
         }
@@ -117,7 +117,7 @@ class ShoppingCartController extends FrontendController
         //4. Thông báo
         \Session::flash('toastr', [
             'type'    => 'success',
-            'message' => 'Thêm giỏ hàng thành công'
+            'message' => 'Add to cart successfully'
         ]);
 
         return redirect()->back();
@@ -168,7 +168,7 @@ class ShoppingCartController extends FrontendController
 
         \Session::flash('toastr', [
             'type'    => 'success',
-            'message' => 'Đơn hàng của bạn đã được lưu'
+            'message' => 'Your order has been saved'
         ]);
 
         return redirect()->to('/');
